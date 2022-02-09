@@ -12,7 +12,7 @@
 ```python
 import torchdefenses as td
 rmodel = td.RobModel(model, n_classes=10, 
-                     normalize={'mean':[0.4914, 0.4822, 0.4465], 'std':[0.2023, 0.1994, 0.2010]})
+                     normalize={'mean':[0.4914, 0.4822, 0.4465], 'std':[0.2023, 0.1994, 0.2010]}).cuda()
 ```
 
 <details><summary>Easy training</summary><p>
